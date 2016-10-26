@@ -1,0 +1,194 @@
+The target system is: Android - 15 - i686
+The host system is: Linux - 3.13.0-96-generic - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_36c4b"
+[1/2] Building C object CMakeFiles/cmTC_36c4b.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_36c4b
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_0b14e"
+[1/2] Building C object CMakeFiles/cmTC_0b14e.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_0b14e
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: i686-none-linux-android
+Thread model: posix
+InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --build-id --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_0b14e /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_0b14e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_0b14e"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_0b14e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_0b14e]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: i686-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --build-id --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_0b14e /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_0b14e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0b14e] ==> ignore
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_0b14e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_ec871"
+[1/2] Building CXX object CMakeFiles/cmTC_ec871.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_ec871
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_580aa"
+[1/2] Building CXX object CMakeFiles/cmTC_580aa.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_580aa
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: i686-none-linux-android
+Thread model: posix
+InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --build-id --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_580aa /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_580aa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_580aa"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_580aa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_580aa]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: i686-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --build-id --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_580aa /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_580aa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_580aa] ==> ignore
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_580aa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib]
+  implicit libs: [stdc++;m;dl;c;dl]
+  implicit dirs: [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib]
+  implicit fwks: []
+
+

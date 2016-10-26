@@ -1,0 +1,12 @@
+# ninja log v5
+0	26	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	653ba41347802dab
+26	35	0	/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/build/intermediates/cmake/universal/debug/obj/x86_64/libhello-jni.so	92d103fe3c9e45cc
+0	75	0	build.ninja	dec9fa3f3164a4da
+0	151	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	e83d8efff8153558
+152	216	0	/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/build/intermediates/cmake/universal/debug/obj/x86_64/libhello-jni.so	e16812e03c355b29
+0	25	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	e83d8efff8153558
+25	39	0	/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/build/intermediates/cmake/universal/debug/obj/x86_64/libhello-jni.so	e16812e03c355b29
+0	24	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	e83d8efff8153558
+24	33	0	/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/build/intermediates/cmake/universal/debug/obj/x86_64/libhello-jni.so	e16812e03c355b29
+0	35	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	e83d8efff8153558
+35	45	0	/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/build/intermediates/cmake/universal/debug/obj/x86_64/libhello-jni.so	e16812e03c355b29

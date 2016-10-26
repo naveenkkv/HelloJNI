@@ -1,0 +1,3 @@
+/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/armDebug/armeabi/CMakeFiles/edit_cache.dir
+/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/armDebug/armeabi/CMakeFiles/rebuild_cache.dir
+/usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/armDebug/armeabi/CMakeFiles/hello-jni.dir

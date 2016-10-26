@@ -1,0 +1,206 @@
+The target system is: Android - 21 - mips64
+The host system is: Linux - 3.13.0-96-generic - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_1958a"
+[1/2] Building C object CMakeFiles/cmTC_1958a.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_1958a
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_02494"
+[1/2] Building C object CMakeFiles/cmTC_02494.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_02494
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: mips64el-none-linux-android
+Thread model: posix
+InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
+Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
+Candidate multilib: .;
+Selected multilib: .;
+ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 -pie -z relro --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 --build-id --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_02494 /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_02494.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mips64el-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_02494"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_02494.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_02494]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: mips64el-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: .]
+  ignore line: []
+  link line: [ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 -pie -z relro --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 --build-id --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_02494 /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_02494.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtend_android.o]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64ltsmip] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_02494] ==> ignore
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_02494.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib64]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib64]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib64;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib64;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_11e41"
+[1/2] Building CXX object CMakeFiles/cmTC_11e41.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_11e41
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_487ac"
+[1/2] Building CXX object CMakeFiles/cmTC_487ac.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_487ac
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: mips64el-none-linux-android
+Thread model: posix
+InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
+Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
+Candidate multilib: .;
+Selected multilib: .;
+ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 -pie -z relro --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 --build-id --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_487ac /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_487ac.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mips64el-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/google/home/naveenkumark/AndroidStudioProjects/2.2.2/3360264/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/google/home/naveenkumark/Android/Sdk/cmake/3.6.3155560/bin/ninja" "cmTC_487ac"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_487ac.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_487ac]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: mips64el-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: .]
+  ignore line: []
+  link line: [ "/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 -pie -z relro --sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 --build-id --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_487ac /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtbegin_dynamic.o -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64 -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_487ac.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtend_android.o]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--sysroot=/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64ltsmip] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_487ac] ==> ignore
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib]
+    arg [-L/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib] ==> dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_487ac.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib64]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib/../lib64] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib64]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib]
+  collapse library dir [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib] ==> [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib]
+  implicit libs: [stdc++;m;dl;c;dl]
+  implicit dirs: [/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib64;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib64;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib;/usr/local/google/home/naveenkumark/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64/usr/lib]
+  implicit fwks: []
+
+
